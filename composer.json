@@ -1,5 +1,5 @@
 {
-    "name": "scandipwa/slider",
+    "name": "scandipwaamr/slider",
     "description": "Slider module for Magento 2",
     "type": "magento2-module",
     "require": {
@@ -22,6 +22,6 @@
         }
     },
     "replace": {
-        "scandiweb/slider": "*"
+        "scandipwa/slider": "*"
     }
 }
