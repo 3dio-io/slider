@@ -14,6 +14,7 @@ use Magento\Framework\View\Result\PageFactory;
 
 class Slides extends \Magento\Backend\App\Action
 {
+    protected $layoutFactory;
     public function __construct(Context $context, \Magento\Framework\View\Result\LayoutFactory $layoutFactory)
     {
         parent::__construct($context);
