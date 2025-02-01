@@ -13,7 +13,8 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /* @var \Magento\Backend\Model\UrlInterface */
     protected $_backendUrl;
-
+    protected $_storeManager;
+    protected $_categoryCollectionFactory;
     /**
      * @param \Magento\Framework\App\Helper\Context $context
      * @param \Magento\Catalog\Model\ResourceModel\Category\CollectionFactory $categoryCollectionFactory
