@@ -14,6 +14,7 @@ use Magento\Framework\View\Result\PageFactory;
 
 class Index extends \Magento\Backend\App\Action
 {
+    protected $resultPageFactory;
     public function __construct(Context $context, PageFactory $resultPageFactory)
     {
         parent::__construct($context);
